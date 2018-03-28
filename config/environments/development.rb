@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.configure do
   # Verifies that versions and hashed value of the package contents in the project's package.json
   config.webpacker.check_yarn_integrity = true
@@ -57,7 +59,7 @@ Rails.application.configure do
 
   # MailCatcher
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  config.action_mailer.smtp_settings = { address: 'localhost', port: 1025 }
   # Devise
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
