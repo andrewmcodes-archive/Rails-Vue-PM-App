@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :teams
   as :user do
     put '/user/confirmation' => 'confirmations#update', :via => :patch, :as => :update_user_confirmation
   end
