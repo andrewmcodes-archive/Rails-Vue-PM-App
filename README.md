@@ -1,24 +1,18 @@
 # README
+This is a project management app using Ruby on Rails and Vue.js. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Features
+* User authentication, using Devise
 
-Things you may want to cover:
+* CRUD for Teams, with ability to add users to a team
 
-* Ruby version
+* CRUD for Projects
 
-* System dependencies
+* Activity stream using `public_activity` gem
 
-* Configuration
+* Easier to use forms with `simple_form` gem
 
-* Database creation
+* Better text editing capabilities with `wysiwyg-rails` gem
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Acknowledgements
+I followed the `Let's Build: With Ruby on Rails - Project Management` series for this app from Web-Crunch. Definitely would recommend for getting a little introduction to using Vue.js in a Rails app if nothing else.
